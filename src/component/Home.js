@@ -5,6 +5,8 @@ import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import MenuIcon from "@mui/icons-material/Menu";
+import { ListItem, ListItemButton, ListItemText } from "@mui/material";
+import { contents } from "../constants/contents";
 import { styled, useTheme } from "@mui/material/styles";
 
 import "./Home.css";
@@ -59,6 +61,15 @@ const Home = () => {
                 <ChevronRightIcon />
               </IconButton>
             </DrawerHeader>
+            {contents.map((content, index) => (
+              <ListItem key={`${content}-${index}`}>
+                <ListItemButton>
+                  <Link to={content.to} className="App-link" target="_blank">
+                    <ListItemText primary={content.name} />
+                  </Link>
+                </ListItemButton>
+              </ListItem>
+            ))}
           </Drawer>
         </dev>
       </header>
