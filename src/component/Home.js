@@ -3,11 +3,12 @@ import logo from "../asset/logo.jpg"
 import { Tab, Box } from "@mui/material";
 import { TabContext, TabList, TabPanel } from "@mui/lab";
 import { Link } from "react-router-dom";
-
+import { contents } from "../constants/contents";
+import HomeFooter from "./homeFooter/HomeFooter";
 
 
 import "./Home.css";
-import { contents } from "../constants/contents";
+
 
 const Home = () => {
   const [ tabValue, setTabValue ] = useState(0)
@@ -102,15 +103,14 @@ import { styled, useTheme } from "@mui/material/styles";
           </div>
         </header>
         <body className="body">
-          <div>
             {contents.map((content, index) => (
               <TabPanel key={`${content.name}-tab-panel`} value={index}>
                 {content.component}
               </TabPanel>
             ))}
-          </div>
         </body>
       </TabContext>
+      <HomeFooter />
     </div>
   );
 }

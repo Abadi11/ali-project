@@ -6,12 +6,13 @@ import Industries from "../component/industries/Industries";
 import OurServices from "../component/ourServices/OurServices";
 import OurValues from "../component/ourValues/OurValues";
 import SegmentsServices from "../component/segmentsServices/SegmentsServices";
+import HomeBody from "../component/homeBody/HomeBody";
 
 export const contents = [
   {
     name: "Home",
-    to: "/home",
-    component: <Link to="/" />,
+    to: "/",
+    component: <HomeBody />,
   },
   {
     name: "About Us",
