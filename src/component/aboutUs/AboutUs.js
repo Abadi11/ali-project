@@ -1,6 +1,7 @@
 import React from 'react'
 import aboutUs1 from "../../asset/aboutUs/aboutUs1.JPG"
 import aboutUs6 from "../../asset/aboutUs/aboutUs6.JPG";
+import VisionMissionPhoto from "../../asset/aboutUs/visionMissionContainer.JPG"
 
 import "./AboutUs.css"
 import CardCustomised from './CardCustomised';
@@ -23,8 +24,10 @@ function AboutUs() {
           <CardCustomised />
         </div>
       </div>
-      <div>
+
+      <div className="vision-mission-component">
         <VisionMission />
+        <img src={VisionMissionPhoto} alt="about-us-page" width={"40%"} />
       </div>
       <img src={aboutUs6} alt="about-us-page" width={"80%"} />
     </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Card, CardContent, Typography } from "@mui/material";
+import { Card, CardContent, Typography } from "@mui/material";
 import { cardContents } from './cardContents';
 import { thanksText } from './cardContents';
 import mainPointLogo from '../../asset/main-points-logo.JPG'
@@ -14,7 +14,6 @@ function CardCustomised() {
             className="card-container"
             key={`who-we-are-card$-${index}`}
             sx={{ width: "35%" }}
-            elevation={24}
           >
             <img
               src={mainPointLogo}

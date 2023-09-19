@@ -1,0 +1,16 @@
+.vision-mission-card-container{
+ /* display: flex;
+ flex-direction: column; */
+ /* flex-flow: column wrap; */
+ gap: 0.5rem;
+ padding: 1rem 2rem;
+ color: rgb(250, 67, 6) !important;
+}
+
+.vision-mission-card{
+ display: flex;
+ gap: 2rem;
+ padding: 1rem 0 0 2rem;
+ background-color: inherit !important;
+ color: rgb(244,241,240) !important;
+}
