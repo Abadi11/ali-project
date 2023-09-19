@@ -1,6 +1,62 @@
 .about-us-container{
  display: flex;
- flex-direction: row;
+ flex-direction: column;
  justify-content: center;
  align-items: center;
+}
+
+.image-container{
+ display: flex;
+ justify-content: center;
+}
+
+.cards-container{
+ background-color: rgb(22,39,57);
+ display: flex;
+ flex-flow: column wrap;
+ width: 70%;
+ margin: 2rem 0;
+ padding: 2rem 0;
+}
+
+.cards-container-header{
+ padding-left: 4rem;
+ 
+}
+
+.cards-container-header > h2{
+  color: rgb(244,241,240) !important;
+  width: 100%;
+  padding-bottom: 1rem;
+}
+.cards-container-header > h4{
+  color: rgb(250, 67, 6) !important;
+  width: 100%;
+}
+
+
+.cards-container-body{
+ background-color: inherit;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
+
+}
+
+.cards-container-body > p{
+ display: flex;
+  color: rgb(244,241,240) !important;
+  padding: 0 2rem;
+}
+.cards-container-body > img{
+  vertical-align: bottom;
+}
+/* CardCustomised */
+
+.card-container{
+ display: flex;
+ gap: 0.5rem;
+ padding: 1rem 2rem;
+ background-color: inherit !important;
+ color: rgb(244,241,240) !important;
 }
