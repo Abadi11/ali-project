@@ -10,6 +10,10 @@ const vision = "To become a leading global shipping company that is recognized f
 
 const mission = " We are committed to providing our customers with safe, efficient, and reliable transportation services for their cargo and freight needs. Our mission is to exceed our customers' expectations by delivering exceptional value through our commitment to quality, innovation and sustainability."
 
+export const culture = "We strive to maintain a culture of excellence in all aspects of our operations, from our customer service to or vessel operations, and to continuously iprove our performance through investment in our people, technology, and infrastructure.";
+
+export const strength = "Our strength comes from ur strong partners in the region and our goal is to build lasting partnerships with our customers, suppliers, and other stakeholders in the shipping industry, and to contribute to the growth and development of our customers businesses through our excellent services.";
+
 export const thanksText = "Thank you for considering US for your transportation needs. We look forward to the opportunity to demonstrate our expertise and to build a lasting partnership with you.";
 
 export const cardContents = {

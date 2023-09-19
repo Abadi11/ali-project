@@ -1,12 +1,13 @@
-import React from 'react'
-import aboutUs1 from "../../asset/aboutUs/aboutUs1.JPG"
+import React from "react";
+import aboutUs1 from "../../asset/aboutUs/aboutUs1.JPG";
 import aboutUs6 from "../../asset/aboutUs/aboutUs6.JPG";
-import VisionMissionPhoto from "../../asset/aboutUs/visionMissionContainer.JPG"
+import VisionMissionPhoto from "../../asset/aboutUs/visionMissionContainer.JPG";
 
-import "./AboutUs.css"
-import CardCustomised from './CardCustomised';
-import { Typography } from '@mui/material';
-import VisionMission from './visionMission/VisionMission';
+import "./AboutUs.css";
+import CardCustomised from "./whoWeAre/CardCustomised";
+import { Typography } from "@mui/material";
+import VisionMission from "./visionMission/VisionMission";
+import CultureStrength from "./cultureStrength/CultureStrength";
 
 function AboutUs() {
   return (
@@ -29,9 +30,13 @@ function AboutUs() {
         <VisionMission />
         <img src={VisionMissionPhoto} alt="about-us-page" width={"40%"} />
       </div>
+
+      <div className="culture-strength-component">
+        <CultureStrength />
+      </div>
       <img src={aboutUs6} alt="about-us-page" width={"80%"} />
     </div>
   );
 }
 
-export default AboutUs
+export default AboutUs;

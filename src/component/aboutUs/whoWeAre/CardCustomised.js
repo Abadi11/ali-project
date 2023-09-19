@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 import { Card, CardContent, Typography } from "@mui/material";
-import { cardContents } from './cardContents';
-import { thanksText } from './cardContents';
-import mainPointLogo from '../../asset/main-points-logo.JPG'
+import { cardContents } from "../cardContents";
+import { thanksText } from "../cardContents";
+import mainPointLogo from "../../../asset/main-points-logo.JPG";
 
 function CardCustomised() {
   return (
