@@ -10,66 +10,53 @@ import "./VisionMission.css"
 function VisionMission() {
   return (
     <div className="vision-mission-card-container">
-        <Typography variant="h4">
-          Vision
-        </Typography>
-        <Card
-          variant="none"
-          className="vision-mission-card"
-          
-        >
-          <div style={{ display: "flex" }}>
-            <img
-              src={mainPointLogo}
-              alt={`vision-card`}
-              width="20rem"
-              height="20rem"
-            />
-
-            <CardContent
-              sx={{ p: 0, textAlign: "justify", wordBreak: "break-word" }}
-            >
-              <Typography variant="body1">{cardContents["Vision"]}</Typography>
-            </CardContent>
-          </div>
-
+      <Typography variant="h4">Vision</Typography>
+      <Card variant="none" className="vision-mission-card">
+        <div style={{ display: "flex", gap: "0.5rem" }}>
           <img
-            src={VisionLogo}
+            src={mainPointLogo}
             alt={`vision-card`}
-            width="80rem"
-            height="80rem"
+            width="20rem"
+            height="20rem"
           />
-        </Card>
-        <Typography variant="h4">
-          Mission
-        </Typography>
-        <Card
-          variant="none"
-          className="vision-mission-card"
-        >
-          <div style={{ display: "flex" }}>
-            <img
-              src={mainPointLogo}
-              alt={`vision-card`}
-              width="20rem"
-              height="20rem"
-            />
 
-            <CardContent
-              sx={{ p: 0, textAlign: "justify", wordBreak: "break-word" }}
-            >
-              <Typography variant="body1">
-                {cardContents["Mission"]}
-              </Typography>
-            </CardContent>
-          </div>
+          <CardContent
+            sx={{ p: 0, textAlign: "justify", wordBreak: "break-word" }}
+          >
+            <Typography variant="body1">{cardContents["Vision"]}</Typography>
+          </CardContent>
+        </div>
+
+        <img
+          src={VisionLogo}
+          alt={`vision-card`}
+          width="80rem"
+          height="80rem"
+        />
+      </Card>
+      <Typography variant="h4">Mission</Typography>
+      <Card variant="none" className="vision-mission-card">
+        <div style={{ display: "flex", gap: "0.5rem" }}>
           <img
-            src={MissionLogo}
+            src={mainPointLogo}
             alt={`vision-card`}
-            width="80rem"
-            height="80rem"
+            width="20rem"
+            height="20rem"
           />
-        </Card>
+
+          <CardContent
+            sx={{ p: 0, textAlign: "justify", wordBreak: "break-word" }}
+          >
+            <Typography variant="body1">{cardContents["Mission"]}</Typography>
+          </CardContent>
+        </div>
+        <img
+          src={MissionLogo}
+          alt={`vision-card`}
+          width="80rem"
+          height="80rem"
+        />
+      </Card>
     </div>
   );
 }

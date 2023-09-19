@@ -33,7 +33,7 @@ function CardCustomised() {
 
       <Typography
         variant="body1"
-        sx={{ textAlign: "justify", wordBreak: "break-word" }}
+        sx={{ textAlign: "justify", wordBreak: "break-word", gap: "0.5rem" }}
       >
         <img
           src={mainPointLogo}
