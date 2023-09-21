@@ -9,7 +9,7 @@ function HomeBody() {
   return (
     <div className="home-body-component">
       <div className="home-body-photo">
-        <Typography variant="h2">Welcome ...!</Typography>
+        <Typography variant="h3">Welcome ...!</Typography>
         <img src={homePageImage} alt="home-page" width={"50%"}/>
       </div>
       <div className="how-we-work-component">
