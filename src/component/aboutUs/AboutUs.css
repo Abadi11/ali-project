@@ -6,7 +6,10 @@
 
 .image-container{
  display: flex;
+ flex-direction: row;
  justify-content: center;
+ align-items: center;
+ gap: 2rem;
 }
 
 .cards-container{
@@ -22,11 +25,6 @@
 .cards-container-header{
  padding-left: 4rem;
  
-}
-
-.cards-container-header > h2{
-  width: 100%;
-  padding-bottom: 1rem;
 }
 .cards-container-header > h4{
   color: rgb(250, 67, 6) !important;
