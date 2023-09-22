@@ -24,7 +24,7 @@ h4{
  display: flex;
  flex-flow: row wrap;
  gap: 1rem;
- padding-bottom: 1rem;
+ padding-bottom: 2rem;
 }
 
 .booking-01-container{
@@ -77,7 +77,6 @@ h4{
 background-position-x: left ;
  background-size: 80%;
  width: 100%;
- margin-top: 3;
 }
 
 .warehouse-inspection-labelling-03 > h5{
@@ -94,3 +93,29 @@ background-position-x: left ;
  word-break: break-word;
 
 }
+
+
+/* How we work second page  */
+
+.loading-transport-documentation-transit-arrivalAtDestination-delivery-container{
+ display: flex;
+ flex-flow: row wrap;
+ gap: 1rem;
+ margin: 2rem 0;
+}
+/* Loading card */
+
+.card-container-template{
+ background-color: var(--background-img-color);
+ width: 30%;
+}
+
+.how-we-work-card-container{
+ display: flex;
+ flex-flow: column wrap; 
+ align-items: center;
+ text-align: justify;
+ word-break: break-word;
+}
+
+/* 05 Transport */
