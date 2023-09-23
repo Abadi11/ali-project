@@ -7,6 +7,10 @@ import DocumentationBackground from "../../../asset/howWeAre/6Documentation.JPG"
 import TransitBackground from "../../../asset/howWeAre/7Transit.JPG";
 import ArrivalAtDestinationBackground from "../../../asset/howWeAre/8Arrival.JPG";
 import DeliveryBackground from "../../../asset/howWeAre/9Delivery.JPG";
+import ShipProcessChat from "../../../asset/howWeAre/processChat.JPG";
+import CountriesWeShipTo from "../../../asset/howWeAre/countriesWeShipTo.JPG";
+import OurServices from "../../../asset/howWeAre/ourServices.JPG";
+import OurStrategicPartners from "../../../asset/howWeAre/ourStrategicPartners.JPG";
 
 import "./HowWeWork.css";
 import { arrivalAtDestination, booking, delivery, documentation, howWeWork, loading, pickup, transit, warehousingInspectionLabelling } from "../contexts";
@@ -221,6 +225,31 @@ function HowWeWork() {
               </Typography>
             </div>
           </div>
+        </div>
+        <div className="ship-process-container">
+          <img
+            src={ShipProcessChat}
+            alt="shipment-process-chat"
+            width={"50%"}
+          />
+          <img
+            src={CountriesWeShipTo}
+            alt="shipment-process-chat"
+            width={"50%"}
+          />
+        </div>
+        <div className="our-services-container" style={{ marginTop: "2rem" }}>
+          <img src={OurServices} alt="our-services-chat" width={"99%"} />
+        </div>
+        <div
+          className="our-strategic-partners-container"
+          style={{ marginTop: "2rem" }}
+        >
+          <img
+            src={OurStrategicPartners}
+            alt="our-strategic-partners"
+            width={"99%"}
+          />
         </div>
       </Paper>
     </div>
