@@ -4,9 +4,10 @@ import mainPointsLogoBlue from "../../asset/mainPointsLogoBlue.JPG"
 import mainPointsLogo from "../../asset/main-points-logo.JPG";
 import SegmentsServicesPhoto from "../../asset/segmentsServices/segmentsServicesHome.JPG"
 import SeaShipping from "../../asset/segmentsServices/seaShipping.JPG";
+import AirShipment from "../../asset/segmentsServices/airShipment.JPG";
 
 import "./SegmentsServices.css"
-import { seaShipping } from './constants';
+import { airShipment, seaShipping } from './constants';
 function SegmentsServices() {
   return (
     <div className="segments-services-component">
@@ -36,6 +37,22 @@ function SegmentsServices() {
             <img
               src={SeaShipping}
               alt="sea-shipping-background"
+              width={"99%"}
+            />
+          </div>
+
+          {/* Air Shipment */}
+          <div className="ss-card-container-air-shipment">
+            <div className="ss-card-container-body">
+              <Typography variant="h5">Air Shipment</Typography>
+              <div className="ss-card-container-body-description">
+                <img src={mainPointsLogo} alt="main-point-logo" width="20rem" />
+                <Typography variant="body">{airShipment}</Typography>
+              </div>
+            </div>
+            <img
+              src={AirShipment}
+              alt="air-shipment-background"
               width={"99%"}
             />
           </div>

@@ -45,6 +45,7 @@
  display: flex;
  justify-content: flex-end;
  align-items: center;
+ margin-bottom: 2rem;
 }
 .ss-card-container-body{
  position: absolute;
@@ -65,4 +66,15 @@
  word-break: break-word;
  line-height: 1.5rem;
  gap: 0.5rem;
+}
+
+.ss-card-container-air-shipment{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ margin-bottom: 2rem
+}
+
+.ss-card-container-air-shipment > .ss-card-container-body{
+ padding-top: 2rem;
 }
