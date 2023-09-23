@@ -1,4 +1,4 @@
-export const transportation =
+export const seaShipping =
   "At AAC, we take pride in offering excellent sea shipping services for both full container load (FCL) and less than container load (LCL). Our FCL services are ideal for customers who require the exclusive use of an entire container to ship their goods. This allows for efficient handling of cargo and also reduces the risk of damage to products. On the other hand, our LCL service is perfect for customers with smaller shipments that do not fill up an entire container, as we consolidate multiple LCL shipments into a single container to maximize efficiency. With our extensive experience in sea shipping, we ensure that all cargo is handled with extreme care and safety measures are taken at every stage of the process. Trust us to deliver your goods promptly and securely!";
 
 export const airShipment =

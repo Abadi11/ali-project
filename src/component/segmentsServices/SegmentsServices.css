@@ -9,6 +9,11 @@
  width: 100%;
 }
 
+.segments-services-component{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
 .segments-services-header-container{
  display: flex;
  align-items: center;
@@ -20,12 +25,44 @@
 .segments-services-header-container > h3 {
  color: var(--color-title);
 }
-.segments-services-component{
- display: flex;
- flex-direction: column;
- align-items: center;
-}
 
 .segments-services-body-container{
  width: 70%;
+}
+
+.transportation-header-container{
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+ margin-bottom: 2rem;
+}
+
+.transportation-header-container > h4 {
+ color: var(--background-color);
+}
+
+.ss-card-container-sea-shipping{
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+}
+.ss-card-container-body{
+ position: absolute;
+ width: 35%;
+ padding-right: 2rem;
+}
+
+.ss-card-container-body > h5 {
+ margin: 0 2rem 1rem 2rem;
+ color: var(--color-title);
+}
+
+.ss-card-container-body-description{
+ color: var(--color-body);
+ display: flex;
+ align-items:flex-start;
+ text-align: justify;
+ word-break: break-word;
+ line-height: 1.5rem;
+ gap: 0.5rem;
 }
