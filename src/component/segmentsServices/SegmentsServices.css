@@ -4,3 +4,28 @@
  --background-color: rgb(22,39,57);
  --background-img-color: rgb(245,246,248);
 }
+
+.css-13xfq8m-MuiTabPanel-root{
+ width: 100%;
+}
+
+.segments-services-header-container{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ gap: 1rem;
+ margin-bottom: 2rem;
+}
+
+.segments-services-header-container > h3 {
+ color: var(--color-title);
+}
+.segments-services-component{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.segments-services-body-container{
+ width: 70%;
+}
