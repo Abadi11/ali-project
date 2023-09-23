@@ -78,3 +78,22 @@
 .ss-card-container-air-shipment > .ss-card-container-body{
  padding-top: 2rem;
 }
+
+/* Local Transportation */
+.ss-card-container-local-transportation{
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ margin-bottom: 2rem;
+}
+
+.ss-card-container-body-local-transportation{
+ position: absolute;
+ width: 35%;
+ padding-top: 2rem;
+ padding-right: 2rem;
+}
+
+.ss-card-container-body-local-transportation > h5{
+ color: var(--color-title);
+}
