@@ -30,11 +30,6 @@ export const contents = [
     component: <Industries />,
   },
   {
-    name: "How We Work",
-    to: "/how-we-work",
-    component: <HowWeWork />,
-  },
-  {
     name: "Our Services",
     to: "/our-services",
     component: <OurServices />,
