@@ -1,3 +1,9 @@
+:root{
+ --color-title:  rgb(250, 67, 6);
+ --color-body: rgb(244,241,240);
+ --background-color: rgb(22,39,57);
+ --background-img-color: rgb(245,246,248);
+}
 
 .industries-header-container{
  display: flex;
@@ -5,6 +11,9 @@
  justify-content: center;
  gap: 5rem;
  
+}
+.industries-header-container > h4{
+ color: var(--background-color)
 }
 
 .industries-body-container{
