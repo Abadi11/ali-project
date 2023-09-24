@@ -41,6 +41,7 @@
  color: var(--background-color);
 }
 
+/* Sea Shipping */
 .ss-card-container-sea-shipping{
  display: flex;
  justify-content: flex-end;
@@ -54,7 +55,7 @@
 }
 
 .ss-card-container-body > h5 {
- margin: 0 2rem 1rem 2rem;
+ margin: 0 2rem 0rem 2rem;
  color: var(--color-title);
 }
 
@@ -68,6 +69,7 @@
  gap: 0.5rem;
 }
 
+/* Air Shipment */
 .ss-card-container-air-shipment{
  display: flex;
  justify-content: flex-start;
@@ -96,4 +98,124 @@
 
 .ss-card-container-body-local-transportation > h5{
  color: var(--color-title);
+}
+
+/* Project Cargo Logistic */
+.ss-project-cargo-logistics-card-container{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ margin-bottom: 2rem
+}
+
+.ss-project-cargo-logistics-card-container-body{
+ position: absolute;
+ width: 30%;
+ padding: 1rem;
+ margin-top: 2rem;
+}
+
+.ss-project-cargo-logistics-card-container-body > h5{
+ margin: 0rem 2rem 0 2rem;
+ color: var(--color-title);
+}
+
+/* At Heavy Equipment Logistics (ahel) */
+.ahel-ss-card-container{
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ margin-bottom: 2rem;
+}
+
+.ahel-ss-card-container-body{
+ position: absolute;
+ width: 35%;
+ padding-right: 2rem;
+}
+
+.ahel-ss-card-container-body > h5{
+ margin: 0 2rem 0rem 2rem;
+ color: var(--color-title);
+}
+
+/* Supply Chain */
+.supply-chain-header-container{
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+}
+
+.supply-chain-header-container > h4 {
+ color: var(--background-color);
+}
+
+/* Order Management & Fulfillments (omf) */
+.ss-omf-card-container{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ margin-bottom: 2rem;
+}
+
+.ss-omf-card-container-body{
+ position: absolute;
+ width: 30%;
+ padding-right: 2rem;
+}
+
+.ss-omf-card-container-body{
+ margin: 0 2rem 0rem 2rem;
+ color: var(--color-title);
+}
+
+/* Contract Logistics (cl)*/
+.ss-cl-card-container-sea-shipping{
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ margin-bottom: 2rem;
+}
+.ss-cl-card-container-body{
+ position: absolute;
+ width: 30%;
+ padding-top: 5rem;
+ padding-right: 2rem;
+}
+
+.ss-cl-card-container-body > h5 {
+ margin: 0 2rem 0rem 2rem;
+ color: var(--color-title);
+}
+
+/* Warehousing & Storage */
+.ss-ws-card-container{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ margin-bottom: 2rem;
+}
+
+.ss-ws-card-container-body{
+ position: absolute;
+ width: 30%;
+ padding-top: 5rem;
+ padding-right: 2rem;
+}
+
+.ss-ws-card-container-body{
+ margin: 0 2rem 0rem 2rem;
+ color: var(--color-title);
+}
+
+/* .Value & Added Service */
+.value-added-service-header-container{
+ display: flex;
+ align-items: center;
+ gap: 0.5rem;
+ margin-bottom: 2rem;
+}
+
+.value-added-service-header-container > h4 {
+ color: var(--background-color);
 }

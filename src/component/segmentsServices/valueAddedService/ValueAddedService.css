@@ -1,0 +1,28 @@
+:root{
+ --color-title:  rgb(250, 67, 6);
+ --color-body: rgb(244,241,240);
+ --background-color: rgb(22,39,57);
+ --background-img-color: rgb(245,246,248);
+}
+
+.value-added-service-component-container{
+ display: flex;
+ flex-grow: row wrap;
+ justify-content: space-between;
+ gap: 2rem;
+ margin-bottom: 2rem;
+}
+
+.value-added-service-component-container h5{
+ color: var(--color-title);
+ padding-bottom: 1rem;
+ padding-left: 2rem;
+}
+
+.value-added-description{
+ display: flex;
+ align-items: flex-start;
+ text-align: justify;
+ word-break: break-word;
+ gap: 0.5rem;
+}

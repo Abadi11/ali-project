@@ -16,8 +16,14 @@ export const atHeavyEquipmentLogistics =
 export const orderManagementFulfillments =
   "We take pride in providing exceptional order management and fulfillment services. From receiving orders to processing, packing, and shipping them out as quickly as possible, we ensure that our clients receive their products in a timely manner. Our team is dedicated to maintaining a clear line of communication with customers, so they can track their orders from start to finish, assured that everything is going smoothly. We also offer customizable packaging options, enabling clients to put their own branding on shipped items and create an unforgettable customer experience. Whether you're sending out one package or 1000, let us handle it all smoothly for you- making sure your products arrive just how you like them- perfectly packed and ready for the occasion!";
 
-export const cotractLogistics =
+export const contractLogistics =
   "At AAC, we are proud to offer top-notch contract logistics services that are tailored to meet your specific needs. Whether you are looking for warehousing, transportation, or other supply chain solutions, we have the expertise and resources to deliver results. Our team of highly trained professionals will work closely with you to develop a customized plan that maximizes efficiency and minimizes costs. We use the latest technology and best practices to ensure that your goods are managed seamlessly from start to finish, so you can focus on growing your business. With our comprehensive range of services and unparalleled customer support, you can trust us to handle all aspects of your logistics operations with professionalism and care.";
 
 export const warehousingStorage =
   "At AAC, we take pride in providing top-notch warehousing and storage solutions for all your needs. Our facilities are equipped with state-of-the-art technology, ensuring optimal safety and security for your valuable goods. We offer various types of storage options, including pallet racking, bulk storage areas, and secure lock-up containers to cater to diverse requirements. Our trained staff is always on hand to provide assistance with inventory management and order fulfillment. Whether you require short-term or long-term storage solutions, we ensure that your goods are safe from damage or theft while under our care. In addition to offering a pristine facility for warehousing and storage services, our flexible pricing plans make it accessible to businesses of all sizes.";
+
+  export const suppliersGoodsInspections = "Your agent in China to check suppliers before ordering and inspect goods in factories or warehouses to ensure that they with your request.";
+
+  export const taxRefund = "At AAC we help our clients to make a tax refund from government directly through our third party agents who are highly trained and professionally legalized for the job.";
+
+  export const paymentGuarantee = "We help our clients to transfer money to suppliers after the goods received in our warehouse and checked for quality according to customer's requirement.";
