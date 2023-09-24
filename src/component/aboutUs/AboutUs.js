@@ -8,6 +8,7 @@ import VisionMission from "./visionMission/VisionMission";
 import CultureStrength from "./cultureStrength/CultureStrength";
 
 import "./AboutUs.css";
+import { Paper } from "@material-ui/core";
 
 function AboutUs() {
   return (
@@ -17,13 +18,15 @@ function AboutUs() {
         <img src={aboutUs1} alt="about-us-page" width={"50%"} />
       </div>
       <div className="cards-container">
-        <div className="cards-container-header">
-          <Typography variant="h4">Who We Are</Typography>
-        </div>
+        
+          <div className="cards-container-header">
+            <Typography variant="h4">Who We Are</Typography>
+          </div>
 
-        <div className="cards-container-body">
-          <CardCustomised />
-        </div>
+          <div className="cards-container-body">
+            <CardCustomised />
+          </div>
+        
       </div>
 
       <div className="vision-mission-component">
